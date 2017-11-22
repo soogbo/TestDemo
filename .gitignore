@@ -1,8 +1,6 @@
 *.class
 *.orig
 *.bak
-*.classpath
-*.project
 *.prefs
 *.log
 *.log*
