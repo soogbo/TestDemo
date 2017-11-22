@@ -17,10 +17,10 @@ public class SendMailDemo {
 
     public static void main(String[] args) {
         // 收件人电子邮箱
-        String to = "soogbo@163.com";
+        String to = "shispo@163.com";
 
         // 发件人电子邮箱
-        String from = "soogbo@163.com";
+        String from = "shispo@163.com";
 
         // 指定发送邮件的主机为 localhost
         String host = "127.0.0.1";

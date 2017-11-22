@@ -31,7 +31,7 @@ public class SendMailDemo2 {
         // 验证账号及密码，密码需要是第三方授权码
         Authenticator auth = new Authenticator() {
             public PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("soogbo@163.com", "");
+                return new PasswordAuthentication("shispo@163.com", "88889999.");
             };
         };
         Session session = Session.getInstance(props, auth);
@@ -40,7 +40,7 @@ public class SendMailDemo2 {
         Message message = new MimeMessage(session);
         try {
             // 设置发送者
-            message.setFrom(new InternetAddress("soogbo@163.com"));
+            message.setFrom(new InternetAddress("shispo@163.com"));
             // 设置发送方式与接收者
             message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress("soogbo@163.com"));
             // 设置主题
